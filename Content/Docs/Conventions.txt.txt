@@ -1,0 +1,41 @@
+UE Skills Kit - Naming Conventions
+
+PREFIXES:
+
+BP_     = Blueprint Actor/Pawn/Character
+
+WBP_    = Widget Blueprint
+
+ABP_    = Animation Blueprint
+
+AM_     = Animation Montage
+
+AS_     = Animation Sequence
+
+IA_     = Input Action
+
+IMC_    = Input Mapping Context
+
+E_      = Enumeration
+
+BPI_    = Blueprint Interface
+
+AN_     = Anim Notify (single frame)
+
+ANS_    = Anim Notify State (duration)
+
+FOLDERS:
+
+Characters/{Name}/ = All assets for that character
+
+Animation/Notifies/ = Shared notify classes
+
+Core/ = Non-character gameplay assets
+
+Input/ = All input-related assets
+
+UI/ = All widgets
+
+Maps/ = All levels
+
+Docs/ = Documentation
