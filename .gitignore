@@ -1,14 +1,44 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
+############################
+# Unreal Engine project
+############################
+
+# Generated project files & IDE metadata
+.vscode/
+.vs/
+*.sln
+*.suo
 *.VC.db
+*.VC.opendb
 *.opensdf
 *.opendb
 *.sdf
-*.sln
-*.suo
 *.xcodeproj
 *.xcworkspace
+
+# Build / cache / runtime artifacts
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Optional: ignore any local plugins' build output
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+############################
+# OS / editor junk
+############################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# General backup / temp files
+*.tmp
+*.bak
+*.swp
+*.lock
