@@ -2,6 +2,9 @@
 # Unreal Engine project
 ############################
 
+# heavy marketplace assets
+Content/Characters/Enemy
+
 # Generated project files & IDE metadata
 .vscode/
 .vs/
